@@ -1,0 +1,360 @@
+
+*
+{
+	padding:0;
+	margin:0;
+}
+
+html, body
+{
+	height:100%;
+	background-image: url("../images/fb.png");
+	
+}
+
+.wrapper
+{
+
+	min-height:100%;
+	position:relative;
+}
+
+header
+{
+	background-color: #fff;
+	position:relative;
+	height:100px;
+	border-bottom-style:solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	top:0;
+
+}
+
+.headerwrapper
+{
+	width:960px;
+	margin:0 auto;
+	/*border-width: 2px;*/
+	/*border-style:solid;*/
+	/*border-color:lightgrey;*/
+	position:relative;
+	height:100px;
+}
+
+h1.myname
+{
+	position:absolute;
+	float:left;
+	clear:right;
+	bottom:0px;
+	height:70px;
+	width:200px;
+
+	background-color:#4aaaa5;
+	
+	color:white;
+	line-height:2.6;
+	font-size:28px;
+	text-align:center;
+	font-family:'Georgia', Times, Times New Roman, serif;	
+}
+
+nav.links
+{
+	float:left;
+	position:absolute;
+	right:22px;
+	bottom:20px;	
+}
+
+a:link
+ {
+ 	color:#4b6362;
+	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+	font-size: 18px;
+}
+
+a:hover
+{
+	color:white;
+	text-decoration:underline;
+	text-decoration-color:orange;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a:visited
+{
+	color:#b4d3d2;
+
+}
+
+.about
+{
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:lightgrey;
+	float:left;
+	padding-right:14px;
+}
+
+.portfolio
+{
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:lightgrey;
+	float:left;
+	padding-left:14px;
+	padding-right:14px;
+}
+
+.contact
+{
+	float:left;
+	padding-left:14px;
+}
+
+.contentwrapper
+{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+	/*margin-left:260px;*/
+	/*margin-right:260px;*/
+	/*border-width: 2px;*/
+	/*border-style:solid;*/
+	/*border-color:lightgrey;*/
+}
+
+section.content1
+{
+	position:absolute;
+	float:left;
+	clear:right;
+	height:450px;
+	width:650px;	
+	margin-top: 25px;
+
+	
+	background-color:white;
+
+	border-width: 1px;
+	border-style:solid;
+	border-color:#dddddd;
+}
+
+h2.content1head
+{
+	
+	width:600px;
+	height:50px;
+    margin: 0 auto;
+
+    background-color:inherit;
+	
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size:28px;
+	font-weight:bold;
+	line-height: 2;
+	
+	border-bottom-width: 2px;
+	border-bottom-style:solid;
+	border-bottom-color:lightgrey;
+	/*border-top-color:black;*/
+	/*border-top-width:1px;*/
+	/*border-top-style:solid;*/
+	/*border-width: 2px;*/
+	/*border-style:solid;*/
+	/*border-color:lightgrey;*/
+}
+
+.portgrouprow
+{
+	height:161px;
+	width:100%;
+	margin-left:26px;
+	margin-top:26px;
+	margin-bottom:0;
+}
+
+.portgroup
+{
+	height:161px;
+	width:182px;
+	margin-right:26px;
+	margin-bottom:0px;
+	position:relative;
+	float:left;
+
+}
+
+.portitem
+{
+	height:161px;
+	width:182px;
+	margin:0px;
+	padding:0px;
+	color:white;
+	position:absolute;
+}
+
+.pitedes
+{
+	width:177px;
+	height:25px;
+	line-height:1.5;
+	background-color:#b4d3d2;
+	opacity: 10;
+	color:#4b6362;
+	position:absolute;
+	margin-top:125px;
+	padding-left:5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+
+.inputlabel
+{
+	width:600px;
+	margin:0 auto;
+	margin-top:10px;
+	font-size: 12px;
+	color:#777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight:normal;
+}
+
+input, textarea
+{	
+	display:block;
+	width:600px;
+	margin-left:25px;
+	padding-top:2px;
+}
+
+#submit
+{
+	width:100px;
+	margin-left:25px;
+	padding-top:1px;
+	border-radius:2px;
+	background-color:#4aaaa5;
+	color:white;
+	border:none;
+	height:30px;
+}
+
+
+.imgpara
+{
+	color:#777777;
+	top:80px;
+	width:600px;
+	height:78%;
+	margin:0 auto;
+	padding-top:30px;
+	/*border-width: 2px;*/
+	/*border-style:solid;*/
+	/*border-color:lightgrey;			*/
+}
+
+img.me
+{
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;	
+}
+
+p.para
+{
+	color:#777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	/*border-width: 2px;*/
+	/*border-style:solid;*/
+	/*border-color:purple;*/
+	height:100%;
+	margin:0;
+}
+
+section.content2, section.contactinfo
+{
+	position:absolute;
+	right:0;
+	float:left;
+	height:150px;
+	width: 270px;
+	margin-right:0px;
+	margin-top:25px;
+	
+	background-color:white;
+
+	border-width: 1px;
+	border-style:solid;
+	border-color:lightgrey;
+}	
+
+h3.cwm
+{	
+	height:50px;
+	width:260px;
+	margin: 0 auto;
+
+	background-color:inherit;
+
+	color:#4aaaa5;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 28px;
+	font-weight:bold;
+	line-height: 2;
+	
+	
+	border-bottom-width: 1px;
+	border-bottom-style:solid;
+	border-bottom-color:lightgrey;
+		/*border-width: 2px;*/
+	/*border-style:solid;*/
+	/*border-color:lightgrey;		*/
+}
+
+.icons
+{
+	/*height:95px;*/
+	/*width:140px;*/
+	margin: 0 auto;
+	/*border-width: 2px;*/
+	/*border-style:solid;*/
+	/*border-color:lightgrey;	*/
+	position:relative;
+	top:2px;
+	
+}
+
+.ic
+{
+	float:left;
+	padding:4.4px;
+
+}
+
+footer
+{	position:fixed;
+	bottom:0;			
+	height:100px;
+	width:100%;
+
+	background-color:#666666;
+	
+	text-align: center;
+	color: white;
+	line-height:6.1;				
+	
+	border-top-style:solid;
+	border-top-width:5px;
+	border-top-color:#4aaaa5;
+}

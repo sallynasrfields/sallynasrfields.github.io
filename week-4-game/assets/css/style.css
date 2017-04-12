@@ -1,0 +1,287 @@
+*
+{
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+body
+{
+	background-image:url("../images/de.png");
+	color:#6e998d;
+}
+
+header
+{
+	width:100%;
+	height:150px;
+	background-image:url("../images/gds.png");
+}
+div
+{
+	height:50px;
+	width:50px;
+	font-size: 25px;
+/*	border-width:2px;
+	border-style:solid;
+	border-color:black;*/
+	margin:20px;
+
+}
+p
+{
+	font-size: 15px;
+	padding-top:8px;
+	margin-left:16px;
+	margin-right:10px;
+	line-height:1.2;
+}
+
+
+ol,li
+{
+	font-size: 15px;
+	position:relative;
+	margin-left:25px;
+}
+
+
+h1
+{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:50px;
+	text-align: center;
+	line-height: 2.9;
+	color:#5c5958;
+}
+
+
+h3
+{
+	color:#5c5958;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: grey;
+	width:320px;
+	margin:0 auto;
+	margin-bottom:0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 40px;
+	font-family: 'Merriweather Sans', sans-serif;
+}	
+
+#container
+{
+	width:80%;
+	height:1000px;
+	padding:0px;
+	margin:0 auto;
+	position:relative;
+/*	border-width:2px;
+	border-style:solid;
+	border-color:white;*/
+}
+
+
+
+
+div.tal
+{	position:relative;
+	float:left;
+	padding:0px;
+	margin:18px;
+	/*	border-width:2px;
+	border-style:solid;
+	border-color:black;*/
+	
+}
+
+.allCrystals
+{
+	width:350px;
+	height:150px;
+	border-radius: 8px;
+	background-image:url("../images/divbg.png");
+	position:relative;
+	margin: auto;
+	top:22px;
+	float:left;
+/*	clear:left;*/
+/*	border-width:2px;
+	border-style:solid;
+	border-color:black;*/
+
+}
+#crystals1, #crystals2, #crystals3, #crystals4
+{
+	/*float:left;
+	margin:0px;
+	font-size:0px;
+	padding:0;
+	border:0;
+/*		border-width:2px;
+	border-style:solid;
+	border-color:black;*/
+	bottom:0px;
+	left:0px;
+	position:absolute;
+	height:50px;
+	width:50px;
+	font-size:0px;
+	font-size:0px;
+
+}
+
+.score, .numbersCrystals, .instruct
+{
+	width:350px;
+	height:324px;
+	border-radius: 8px;
+	/*background-image:url("../images/divbg.png");*/
+	position:relative;
+	margin:25px;
+	margin-top:100px;
+	
+	float:left;
+}
+
+.instruct,  .score
+{
+	background-image:url("../images/divbg.png");
+}
+
+
+
+
+h3#target
+{
+	font-size: 40px;
+	border-width:0px;
+	padding-top:10px;
+}
+.currentToTarget
+{
+	width:350px;
+	height:150px;
+	border-radius: 8px;
+	background-image:url("../images/divbg.png");
+	position:relative;
+	margin: 0 auto;
+	float:left;
+}
+
+#total, #questNum, #divide
+{
+	margin:0px;
+	margin-top:0px;
+	float:left;
+	height:75px;
+	width:130px;
+	/*border-width:2px;
+	border-style:solid;
+	border-color:black;*/
+	text-align: center;
+	line-height: 1.2;
+	font-size: 60px;
+}
+
+#divide
+{
+	width:20px;
+	height:75px;
+	text-align: center;
+	line-height: 1.2;
+	font-size: 60px;
+	float:left;
+/*	border-width:2px;
+	border-style:solid;
+	border-color:black;*/
+}
+
+#total
+{
+	margin-left:25px;
+}
+
+
+
+
+#endStatus, #score
+{
+	margin:5px;
+	width:350px;
+
+}
+
+#endStatus
+{	
+	padding:10px;
+	margin:0px;
+	width:330px;
+	height:90px;
+	background-image: url("..images/pink_rice.png")
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	/*border-width:2px;
+	border-style:solid;
+	border-color:black;	*/
+	font-size:30px;
+	text-align: center;
+	padding-top:50px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+h4
+{
+	float:left;
+	width:150px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	/*border-width:2px;
+	border-style:solid;
+	border-color:black;*/
+	margin:10px;
+	margin-bottom:10px;
+	margin-top:30px;
+	text-align: center;
+	padding-bottom:10px;
+	font-size:40px;
+	font-family: 'Merriweather Sans', sans-serif;
+	color:#5c5958;
+
+}
+
+#wins, #losses
+{
+	/*border-width:2px;
+	border-style:solid;
+	border-color:black;*/
+	font-size:40px;
+	margin:10px;
+	margin-top:0px;
+	text-align: center;
+	width:150px;
+	/*font-family: 'Days One', sans-serif;*/
+
+}
+
+#wins
+{
+	clear:right;
+	float:left;
+	
+
+
+}
+
+#losses
+{
+	
+	float:left;
+	
+		
+
+}

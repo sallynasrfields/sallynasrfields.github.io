@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+</head>
+   
+
+ 
+
+<body>
+	<header>
+		<div id="container">
+			<h1>Crystal  Mystical Math Game</h1>
+		</div>
+	</header>
+	<div id= "container">
+		<div class = "instruct">
+			<h3>Instructions</h3>
+			<p> This game is made up of: </p>
+			<ol><li> Four clickable crystals</li> 
+			<li> Your total number </li>
+			<li> Your target number.</li> </ol>
+			<p> At the beginning of each game (1) one random number is generated as your target number 	&amp;  (2) four random numbers, unknown to you, are generated and assigned to each of the crystals. Your total starts at "0". Each time a crystal is clicked, its linked number is added to your total.</p>
+
+			<p> Your goal is to match your total to the target. If your total surpasses your target you lose.</p>
+			<div id = "score2">
+			</div>
+			<div id = "endStatus2"></div>	
+		</div>
+		<div class="numbersCrystals">
+			<div class="currentToTarget">
+				<h3 id="target"> Total / Target</h3>
+				<div id = "total"></div>
+				<div id = "divide"> / </div>
+				<div id = "questNum"></div>
+				
+			</div>
+			<div class = "allCrystals">
+				<h3> Four Crystals </h3>
+				<div class="tal">
+					<img class="tal" src="assets/images/Picture1.png" height="48px" width="48px" alt="greencystal">
+					<p id="crystals1"></p>			
+				</div>			
+				<div class="tal">
+					<img class="tal" src="assets/images/Picture3.png" height="48px" width="48px" alt="greencystal">
+					<p id="crystals2"></p>	
+				</div >
+				<div class="tal">
+					<img class="tal" src="assets/images/Picture2.png" height="48px" width="48px" alt="greencystal">
+					<p id="crystals3"></p>			
+				</div>
+				<div class="tal">
+					<img class="tal" src="assets/images/Picture4.png" height="48px" width="48px" alt="greencystal">
+					<p id="crystals4">	</p>	
+				</div>	
+			</div>
+		</div>
+		
+		<div class = "score">
+			<p id = "endStatus"></p>
+			<h4>Wins</h4>
+			<h4 >Losses</h4>
+			<div id = "wins"></div>
+			
+			<div id = "losses"></div>
+
+					
+		</div>
+	</div>
+
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js">
+ 	</script>
+
+</body>
+</html>

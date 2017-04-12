@@ -1,0 +1,60 @@
+.auth-image
+{
+	float:left;
+	margin:0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+
+.social
+{
+	margin:1px;
+}
+
+.footer
+{
+	height:80px;
+}
+
+p.font
+{
+	color:white;
+	position:relative;
+	line-height:3.5;
+	padding-left:10px;
+}
+
+.work {
+  position: relative;
+  float: left;
+  width: 45%;
+  margin:15px;
+
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+
+  /*opacity: 0.8;*/
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  font-weight: 300;
+  line-height: 1.2;
+  color:#d9dbdd;
+  text-align: center;
+  background: #36393d;
+  border-bottom: 0;
+  height:30px;
+  font-family: 'Dosis', sans-serif;
+}
