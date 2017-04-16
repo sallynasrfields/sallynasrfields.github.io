@@ -89,11 +89,22 @@ $(document).ready(function()
 
      });
 
-     $("#add-animal").click( function(event){
+   
+
+
+     
+
+
+  }); 
+
+	$(document).on("click", ".add-animal", function(){
      	event.preventDefault();
 
-   		alert("submit button pushed");
+
+   	
      	var newAnimal = $("#animal-input").val().trim();
+
+     	if (newAnimal !== ""){
   
 
      	var button = $("<button>");
@@ -101,15 +112,10 @@ $(document).ready(function()
 	    button.text(newAnimal);
 	   $("#animal-buttons").append(button);
      	
+     	}
 
 
      });
-
-
-     
-
-
-  }); 
 
 
 
