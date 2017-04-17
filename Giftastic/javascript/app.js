@@ -2,7 +2,7 @@
 // 	</div>
 $(document).ready(function() 
 {	
-	var allAnimals = ["Donald Duck", "Bugs Bunny", "Daffy Duck", "Micky Mouse", "Yosemite Sam", "Road Runner", "Tom & Jerry", "Mini Mouse"]
+	var allAnimals = ["Donald Duck", "Bugs Bunny", "Daffy Duck", "Micky Mouse", "Yosemite Sam", "Road Runner","Sylvester the Cat","Elmer Fudd", "Pepe Le Pew", "Speedy Gonzales", "Wile E. Coyote", "Porky Pig"];
 
 	for (i = 0; i<allAnimals.length; i++) {
 		var button = $("<button>");
