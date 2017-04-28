@@ -15,7 +15,7 @@
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 
   <script type="text/javascript">
-    function deriveForecast(city,date){
+    function deriveForecast(latttitude,longitude, date){
           //Temporary varialble for local testing. Arrival Time 
 
           
@@ -71,13 +71,13 @@
           console.log(nDiffinHours1);
 
           //if difference in time is less than 120 hours (5 days), pull weather from 5 day forcast to take advantage of 3 hour granularity
-          if(nDiffinHours1 < 120) {
+          if(nDiffinHours1 < 48) {
 
                   // This is our API key
-                  var APIKey = "f612aaf933e46eae9aa3e2f51d134994";
+                  var APIKey = "dc78765876bb785afa14692137b7221a";
 
                   // Here we are building the URL we need to query the database
-                  var queryURL = "https://crossorigin.me/http://api.openweathermap.org/data/2.5/forecast?q=" + city +",us&appid=" + APIKey;
+                  var queryURL = "https://api.darksky.net/forecast/dc78765876bb785afa14692137b7221a/37.8267,-122.4233";
 
                   // Here we run our AJAX call to the OpenWeatherMap API
                   $.ajax({
@@ -95,33 +95,33 @@
                               console.log(response);
 
                               // Transfer content to HT
-                              $(".city").html("<h1>" + response.city.name + " Weather Details</h1>");
+                              //$(".city").html("<h1>" + response.city.name + " Weather Details</h1>");
                           
 
                               //set current hour to element "0" & update current date with new hour.        
-                              var currentDateViaWeather = response.list[0].dt_txt;
-                              var currentMoment = moment(currentDateViaWeather, "YYYY-MM-DD HH:mm:ss").utc();
-                              console.log(currentMoment);
+                              //var currentDateViaWeather = response.list[0].dt_txt;
+                             //  var currentMoment = moment(currentDateViaWeather, "YYYY-MM-DD HH:mm:ss").utc();
+                             //  console.log(currentMoment);
 
-                              //
-                              var arrivalDateProp = new Date(arrivalDate);
-                              console.log(arrivalDateProp);
+                             //  //
+                             //  var arrivalDateProp = new Date(arrivalDate);
+                             //  console.log(arrivalDateProp);
 
-                              //get the minutes & hours of arrival time and round to nearest hour
-                              var propHours = arrivalDateProp.getHours();
-                              console.log(propHours);
+                             //  //get the minutes & hours of arrival time and round to nearest hour
+                             //  var propHours = arrivalDateProp.getHours();
+                             //  console.log(propHours);
 
-                             var propMinutes = arrivalDateProp.getMinutes();
-                              console.log(propMinutes);
+                             // var propMinutes = arrivalDateProp.getMinutes();
+                             //  console.log(propMinutes);
                          
 
-                              if (propMinutes>=30){
-                                  propHours ++;
-                                 arrivalDateProp.setHours(propHours);
-                                  var minute = 0;
-                                  arrivalDateProp.setMinutes(minute);
-                                  console.log(arrivalDateProp);
-                              }
+                             //  if (propMinutes>=30){
+                             //      propHours ++;
+                             //     arrivalDateProp.setHours(propHours);
+                             //      var minute = 0;
+                             //      arrivalDateProp.setMinutes(minute);
+                             //      console.log(arrivalDateProp);
+                             //  }
                               // else {
                               //     arrivalMoment.minute(00);
                               // }
@@ -165,7 +165,7 @@
           //Closes If hours <120 statement
           }
 
-          else if (nDiffinHours1>= 120){
+          else if (nDiffinHours1>= 48){
 
                    // This is our API key
                   var APIKey = "f612aaf933e46eae9aa3e2f51d134994";
@@ -223,12 +223,13 @@
     
     //Calls DeriveFunction
 
-    var city = "Houston";
-    var date = "1493499600";
+    var lattitude = "29.7632";
+    var longitude = "-95.3632";
+    var date = "1493347112";
     // april 29th 9:00 UTC = 1493499600
     //april 29th 8:30 UTC = 1493497800
     //     http://www.unixtimestamp.com/index.php
-    deriveForecast(city, date);
+    deriveForecast(lattitude,longitude, date);
 
 
 
