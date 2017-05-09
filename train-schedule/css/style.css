@@ -1,0 +1,49 @@
+
+
+.navi
+{
+	width:1550px;
+	height:100px;
+}
+
+.link-posi
+{
+	margin-top:25px;
+	font-size: 35px;
+}
+
+.link-posin
+{
+	margin-top:30px;
+	font-size: 20px;
+}
+
+a.navlink
+{
+	padding:50px;
+}
+
+.table{
+	border-color: blue;
+	border-width:1px;
+	border-style: solid;
+}
+
+td.table-title
+{
+	text-align: center;
+	padding:2px;
+	font-size: 30px;
+	border:0px;
+}
+
+@media (min-width: 1200px){
+
+	.container {
+	    width: 1550px;
+	}
+	.container-fluid, .navbar-collapse{
+		margin-left:115px;
+	}
+
+}
