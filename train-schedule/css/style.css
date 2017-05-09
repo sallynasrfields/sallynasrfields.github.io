@@ -24,9 +24,10 @@ a.navlink
 }
 
 .table{
-	border-color: blue;
+	border-color: #dddddd;
 	border-width:1px;
 	border-style: solid;
+
 }
 
 td.table-title
