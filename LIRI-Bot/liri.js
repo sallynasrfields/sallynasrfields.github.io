@@ -13,16 +13,19 @@ var request = require('request');
 //Grab fs client object and assign to variable for usage with doThis() function.
 var command = require("fs");
 
-//Grab third argument from command and assign to variable
+//Grab third argument from command and assign to variable. This value will dictate the function to be called.
 var functionCalled =  process.argv[2];
 
-// node liri.js my-tweets
+
+////////////////////////////////////////////////LOGIC STARTS HERE\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+// If statement is called when node liri.js my-tweets is enetered.
 if (functionCalled == "my-tweets"){
   retrieveTweets();
 }
 
 // This will show your last 20 tweets and when they were created at in your terminal/bash window.
-
 function retrieveTweets() {
 	var client = new twitter(dataKeys.twitterKeys);
 	var params = { screen_name: 'arisefields'};
@@ -33,6 +36,7 @@ function retrieveTweets() {
 				data.push({
 				'created at: ' : tweets[i].created_at,
 				'Tweets: ' : tweets[i].text,
+				'*******':"*********************************************",
 				});
 			}
 			console.log(data);
@@ -72,7 +76,7 @@ function spotifyThis(songName) {
 				'Song Name':          albums[i].name,
 				'Preview Song URL: ': albums[i].preview_url,
 				'Album: ':            albums[i].album.name,
-				'*******':"*********************************************",
+				'**************************************************************':"******************************************************************",
 			});  
 		}
 		console.log(data);
@@ -107,7 +111,8 @@ function movieThis(){
    		if (error){
      			console.log("Request has returned an error. Please try again.")
    		}
-     		var response = JSON.parse(data);
+     	var response = JSON.parse(data);
+		console.log("******************************")
 		console.log("Movie title: " + response.Title);
 		console.log("Release Year: " + response.Year);
 		console.log("IMDB Rating: " + response.imdbRating);
@@ -116,6 +121,7 @@ function movieThis(){
 		console.log("Movie Plot: " + response.Plot);
 		console.log("Actors: " + response.Actors);
 		console.log("Rotten Tomatoes URL: " + response.tomatoURL);
+		console.log("******************************")
 	});
 };
 
