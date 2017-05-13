@@ -9,7 +9,7 @@ LIRI-Bot is a command line node based application that was built to interpret pr
   4) node liri.js do-what-it-says
 
 ### node liri.js my-tweets
-This command is interpreted as an encrypted, user-athethenticaled function call to twitter API through the npm, twitter.  This function retrieves the last 20 tweets of my twitter account and displays them in the terminal
+This command is interpreted as an encrypted, user-athethenticated function call to twitter API through the npm, twitter.  This function retrieves the last 20 tweets of my twitter account and displays them in the terminal
  
 ### node liri.js spotify-this-song "a song"
 This command is interpreted as a function call to spotify API through the npm, spotify. This function retrieves a number of details about each artist that has performed this song and displays them in the terminal
