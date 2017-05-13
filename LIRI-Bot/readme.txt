@@ -2,7 +2,7 @@ LIRI-Bot is a command line node based application that was built to interpret pr
 
 Pre-defined parameters:
   1) node liri.js my-tweets
-  2) node liri.js.spotify-this-song "<a song>"
+  2) node liri.js spotify-this-song "<a song>"
   3) node liri.js movie-this "<a movie>"
   4) node liri.js do-what-it-says
 
