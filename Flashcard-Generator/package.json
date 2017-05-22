@@ -1,0 +1,15 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "An tool used to create two different types of flash cards: A Cloze flashcard or a Basic flashcard",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flashcard"
+  ],
+  "author": "Sally Fields",
+  "license": "ISC",
+  "dependencies": {}
+}
