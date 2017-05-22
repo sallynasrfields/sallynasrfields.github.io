@@ -30,7 +30,7 @@ There are Three console.log functions that can be used with Clozed Flashcards:
     * ie. georgeWashing.returnFull(); 
     * This would console.log "George Washington was the first president of the United States" to your terminal
 
-## About Basic Flash cards
+## About Basic Flashcards
 A Basic flash card consists of to parts, the front and the back.
 1) On the front, you would simply as "Who was the first president of the United States" 
 2) and on the back "George Washington".
