@@ -40,7 +40,7 @@ A Basic flash card consists of to parts, the front and the back.
   * **var [aVariable] = new BasicCard ([front], [back]);**
   * i.e. var georgeWashington = new BasicCard ("Who was the first president of the United States?", "George Washington");
 
-## Basic Flashcard Functions
+### Basic Flashcard Functions
 There are two console.log functions that can be used with Basic Flashcards:
 1. **variableName.returnFront();**
    * i.e. georgeWashing.returnFront(); 
