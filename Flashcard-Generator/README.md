@@ -2,11 +2,11 @@
 
 Flashcard Generator is a API that allows the end user to build two different flashcards, a Cloze flashchard and a Basic flashcard.
 
-## #To install this API
+### To install this API
 1) Clone folder and add it to your project's repository
 2) On your main html page, externally link to the JSON file, app.js
 
-### About Cloze Deleted Flashcards.
+## About Cloze Deleted Flashcards.
 A Clozed flashcard is like a fill in the blank concept.  ____ _____ was the first president of the United States.
 To create a Cloze Flashcard it requires three inputs:
 1) The full sentence - i.e. "George Washington was the first president of the United States."
@@ -30,7 +30,7 @@ There are Three console.log functions that can be used with Clozed Flashcards:
     * ie. georgeWashing.returnFull(); 
     * This would console.log "George Washington was the first president of the United States" to your terminal
 
-### About Basic Flash cards
+## About Basic Flash cards
 A Basic flash card consists of to parts, the front and the back.
 1) On the front, you would simply as "Who was the first president of the United States" 
 2) and on the back "George Washington".
