@@ -1,20 +1,20 @@
 # Overview
 
-Flashcard Generator is a API that allows the end user to build two different flashcards, a Cloze flashchard and a Basic flashcard.
+Flashcard Generator is an API that allows the end user to build two different flashcards, a Cloze flashchard and a Basic flashcard.
 
 ### To install this API
 1) Clone folder and add it to your project's repository
-2) On your main html page, externally link to the JSON file, app.js
+2) On your main html page, externally link to the javascript file, app.js
 
 ## About Cloze Deleted Flashcards.
-A Clozed flashcard is like a fill in the blank concept.  ____ _____ was the first president of the United States.
+A Clozed flashcard is like a fill in the blank concept. ie: " _ _ _ _ _ _    _ _ _ _ _ _ _ _ _ _ _  was the first president of the United States". Answer: "George Washington".
 To create a Cloze Flashcard it requires three inputs:
 1) The full sentence - i.e. "George Washington was the first president of the United States."
 2) The Partial - i.e. "was the first president of the United States"
 3) The Deleted part - i.e. "George Washington"
 
 ### Creating a Cloze Deleted Flashcard
-* To create a Clozed Flashcard the following constructor function should be called:
+* To create a Clozed Flashcard the following constructor function should be called: 
   *  **var [aVariable] = new ClozeCard ([full], [partial], [dele])**
   * i.e var georgeWashing = new ClozeCard ( "George Washington was the first president of the United States", " was the first president of the United States", "George Washington");
 
