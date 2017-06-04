@@ -26,18 +26,16 @@ module.exports = function (app) {
     // API POST Requests
     // Below code handles when a user submits a form and thus submits data to the server.
     // In each of the below cases, when a user submits form data (a JSON object)
-    // ...the JSON is pushed to the appropriate JavaScript array
-    // (ex. User fills out a reservation request... this data is then sent to the server...
-    // Then the server saves the data to the tableData array)
+    // the JSON is pushed to the appropriate JavaScript array
     // ---------------------------------------------------------------------------
 
-    // This post first calculates the best compatible friend
+    // This post first determines the most compatible friend
     // It then adds the newprofile to the friends table on the server
     // And finally provides the image and name of the best match for the modal.
     app.post("/api/friends", function (req, res) {
 
-        
-        // Assign scores of newProfile to variable trough the use of parser, in reference the "friends.js"
+   
+        // Assign scores of newProfile to variable, in reference the "friends.js"
         var newProfile = req.body;
         var newProfileScores = req.body.scores;
 
@@ -59,7 +57,7 @@ module.exports = function (app) {
         for (var i = 0; i < friendsData.length; i++) {
             // reset variable for each comparison.
             difference = 0;
-            for (var ii = 0; ii < friendsData.scores.length; ii++) {
+            for (var ii = 0; ii < 10; ii++) {
                 // Calculate the absolute value of the sum of score differences of scores.
                 difference += Math.abs(newProfileScores[ii] - friendsData[i].scores[ii]);
             }
@@ -68,13 +66,17 @@ module.exports = function (app) {
                 bestCompatibility = difference;
                 bestFriendName = friendsData[i].name;
                 bestFriendImage = friendsData[i].photo;
+                console.log(bestFriendImage);
             }
         }
         // Add new profile to array
         friendsData.push(newProfile);
 
-        // Send Name and Image of best friend for modal to use.
-        res.json({status: 'OK', bestFriendName: bestFriendName, bestFriendImage: bestFriendImage});
+    
+
+
+        // Send Name and Image of best friend back to Survey html for modal to use.
+        res.json({status: 'OK', name: bestFriendName, image: bestFriendImage});
 
     });
 }
