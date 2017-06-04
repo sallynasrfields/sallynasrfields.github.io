@@ -1,0 +1,12 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Matches you with most compatible person in database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sally Fields",
+  "license": "ISC"
+}
