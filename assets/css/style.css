@@ -1,60 +1,100 @@
-.auth-image
-{
-	float:left;
-	margin:0;
-	margin-right: 10px;
-	margin-bottom: 10px;
+*{
+  padding:0;
+  margin:0;
 }
 
 
-.social
-{
-	margin:1px;
+.header{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url(../images/hbg.jpg) no-repeat center center scroll;
+    background-size: cover;
+
+    }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4e4645;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    opacity: 0.7;
 }
 
-.footer
-{
-	height:80px;
+.sidenav a {
+    padding: 45px 0px 0px 110px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#e9e4ba;
+    display: block;
+    transition: 0.3s;
+    
+    
 }
 
-p.font
-{
-	color:white;
-	position:relative;
-	line-height:3.5;
-	padding-left:10px;
+.sidenav a:hover {
+    color: #887b79;
 }
 
-.work {
-  position: relative;
-  float: left;
-  width: 45%;
-  margin:15px;
-
-  overflow: auto;
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
-.work:nth-child(even) {
+
+#hamburger{
+  position:absolute;
+  top:35px;
+  left:35px;
+  z-index:1;
+  color:#4e4645;
+  display:inline;
+
+ 
   
+
 }
 
-.work img {
-  width: 100%;
-  border: 0 none;
-
-  /*opacity: 0.8;*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
-.work h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  font-weight: 300;
-  line-height: 1.2;
-  color:#d9dbdd;
-  text-align: center;
-  background: #36393d;
-  border-bottom: 0;
-  height:30px;
-  font-family: 'Dosis', sans-serif;
+
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+
+  font-family: 'Karla', sans-serif;
+  font-size:80px;
+ 
+  margin: 0 0;
+  text-align:center;
+  color:#4e4645;
+}
+
+h3{
+  font-family: 'Karla', sans-serif;
+  font-weight:200;
+  text-align:center;
+  font-size:30px;
+  /*color:#893226;*/
+  color:#4e4645;
+  
+
 }

@@ -1,90 +1,492 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>About Me | Sally Fields</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Sally Fields- Full Stack Web Developer</title>
+  <link rel="shortcut icon" href="img/ej.png" />
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- My CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!--Custom Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Developer languages characters -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 </head>
+
 <body>
-		<header class="navbar">
-			<div class="container navbar-inverse">
-			<nav role="navigation">
-				<div class="container-fluid nav">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="index.html">Sally Fields</a>
-					</div>
+  <!-- Header -->
+  <header class="header">
+    <!-- Navigation -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Skillset</a>
+      <a href="#">Contact</a>
+    </div>
 
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-							<li ><a href="index.html" target="_self">about</a></li>
-							<li><a href="portfolio.html" target="_self">portfolio</a></li>
-							<li><a href="contact.html" target="_self">contact</a></li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-			</div>
-		</header>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">About Me</h3>
-					</div>
-				</div>
-				<div class="panel-body">
-					<img class="auth-image" src="assets/images/profilePic.jpg" alt="sally fields" height="170" width="170">
-					<p>Currently working as a Planning focused SAP developer, IT and Business Analyst at a divestiture of Hewlett Packard, and seeking to strenthen my skills as a developer to help achieve my goal of obtainiing a job that allows me to work remotely. In 2010 I obtained a Bachelors of Business Administration in Management Information Systems and shortly afterwards was hired onto Hewlett Packard, where I've remained until now. During this time I've gained lots of analytical and technical skills, learning about many complex business processes and delivering several cross-system solutions in the Planning space as a team member and contributor on several different projects.</p>
+    <div id="hbb">
+    <span id="hamburger"style="font-size:40px;border:1px black solid;padding-left: 10px;padding-right: 10px;padding-bottom:5px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    </div>
+      <div class = "centered">
+        <h1>Sally Fields</h1>
+        <h3>Full Stack Web Developer</h3>
+      </div>
+    </header>
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center" data-parallax="scroll">
+          <h2>The lady behind the magic!</h2>
+          <img src="img/ednaj.jpg" alt="Edna Jonsson" class="img-circle img-responsive img-about">
+          <p class="lead">Edna Jonsson hails from the country of fire and ice, Iceland. She moved to the sunny state of Florida when she was in high school and absolutely loves the warmth and the sun here.
+            <br>
+            <br> Edna has been in real estate most of her career life, it has been a fantastic adventure helping people buy and sell homes. She is a mother of identical twin girls. In 2016 she began a career change and enrolled in the inaugural class of UCF's Coding Boot Camp, she graduated from that boot camp on September 28th, 2016. She has a lot of interest in coding and this will be an exciting career change with lots of opportunities.
+            <br>
+            <br> She has been previously employed with her father's company <a target="_blank" href="http://thevikingteam.com/">The Viking Team, Realty</a>.</p>
+          <img src="img/ucfGrad.jpg" alt="Edna Jonsson" class="img-circle img-responsive img-about">
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- Experienced in -->
+  <section id="experienced" class="experienced bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Technology that I have experience using</h2>
+          <div class="row">
+            <div class="col-lg-6 text-center">
+              <h2>Front End Technology</h2>
+                <table class="devstack col-lg-offset-3">
+                  <tr>
+                    <td><div class="pretty"><span class="hoverText">HTML5</span><i class="devicon-html5-plain"></i></div></td>
+                    <td><div class="pretty"><span class="hoverText">CSS3</span><i class="devicon-css3-plain"></i></div></td>
+                    <td><div class="pretty"><span class="hoverText">Bootstrap</span><i class="devicon-bootstrap-plain"></i></div></td>
+                  </tr>
+                  <tr>
+                    <td><div class="pretty"><span class="hoverText">JavaScript</span><i class="devicon-javascript-plain"></i></div></td>
+                    <td><div class="pretty"><span class="hoverText">jQuery</span><i class="devicon-jquery-plain"></i></div></td>
+                    <td><div class="pretty"><span class="hoverText">Angular.js</span><i class="devicon-angularjs-plain"></i></div></td>
+                   </tr>
+                  <tr>                   
+                    <td><div class="pretty"><span class="hoverText">Node.js</span><i class="devicon-nodejs-plain-wordmark"></i></div></td>
+                    <td><div class="pretty"><span class="hoverText">React.js</span><i class="devicon-react-plain"></i></div></td>
 
-					<p>With six years of experience working for Hewlett-Packard, I am excited to say that I am ready to move on and try something new, whether it be a shift in industry, or in a completely different technical field outside of SAP. This vast world of information technology is constantly evolving and I'd like to evolve with it, getting exposed to new technologies and challenges, working to make all of our lives better, solving problems, both locally and world-wide.</p>
-				</div>
-			</div>
-			<div class="col-lg-2"></div>
-			<div class="col-lg-4">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-				<h3 class="panel-title">Connect with Me</h3>
-				</div>
-				<div class="panel-body">
-					<a href="http://stackexchange.com/users/10348946/arise25" target="_blank"><img class="social" src="assets/images/sof.png" alt="sof" height="70" width="70"></a>
-					<a href="https://www.linkedin.com/in/sally-fields-aab29231/" target="_blank"><img class="social" src="assets/images/li2.png" alt="li" height="70" width="70"></a>
-					<a href="https://github.com/sallynasrfields" target="_blank"><img class="social" src="assets/images/gh.png" alt="gh" height="70" width="70"></a>
-				</div>
-			</div>
-			</div>
-		</div>
-	</div>
+                    <td><div class="pretty"><span class="hoverText">PHP</span><i class="devicon-php-plain"></i></div></td>
+                  </tr>
+                </table>
+            </div>
+            <div class="col-lg-6 text-center">
+              <h2>Back End Technology</h2>
+                <table class="devstack col-lg-offset-2">
+                  <tr>
+                    <td><div class="pretty"><span class="hoverText">MySQL</span><i class="devicon-mysql-plain"></i></div></td>
+                    <td><div class="pretty"><span class="hoverText">MongoDB</span><i class="devicon-mongodb-plain"></i></div></td>
+                    <td><div class="pretty"><span class="hoverText">Laravel</span><i class="devicon-laravel-plain"></i></div></td>
+                  </tr>
+                  <tr>
+                    <td><div class="pretty"><span class="hoverText">SSH</span><i class="devicon-ssh-plain"></i></div></td>
+                    <td><div class="pretty"><span class="hoverText">GitHub</span><i class="devicon-github-plain"></i></div></td>
+                    <td><div class="pretty"><span class="hoverText">AWS</span><i class="devicon-amazonwebservices-plain"></i></div></td>
+                   </tr>
+                  <tr>                   
+                    <td><div class="pretty"><span class="hoverText">Python</span><i class="devicon-python-plain"></i></div></td>
+                    <td><div class="pretty"><span class="hoverText">Grunt</span><i class="devicon-grunt-line"></i></div></td>
+                    <td><div class="pretty"><span class="hoverText">Heroku</span><i class="devicon-heroku-plain"></i></div></td>
+                  </tr>
+                </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Callout -->
+  <aside class="callout">
+    <div class="text-vertical-center">
+      <h1>Sample of my work</h1>
+    </div>
+  </aside>
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h2>Portfolio Work</h2>
+          <hr class="small">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="css">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">Basic Portfolio</h3>
+                    <p>Used HTML & CSS to create a basic portfolio</p>
+                  </span>
+                </div>
+                <a href="http://basicportfolio.edna.tech/">
+                  <img class="img-portfolio img-responsive" src="img/basicPortfolio.png">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="javascript">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">Psychic Gamed</h3>
+                    <p>Used vanilla JavaScript to make a guessing game</p>
+                  </span>
+                </div> 
+                <a href="http://psychicgame.edna.tech/">
+                  <img class="img-portfolio img-responsive" src="img/psychicGame.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">          
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="javascript">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">Homeless Planet</h3>
+                    <p>Using Firebase and JavaScript</p>
+                  </span>
+                </div> 
+                <a href="http://fathomless-thicket-77989.herokuapp.com/">
+                  <img class="img-portfolio img-responsive" src="img/HomelessPlanet.png">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="angular">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">To Do in Angular.js</h3>
+                    <p>Simple To Do list created in Angular.js</p>
+                  </span>
+                </div> 
+                <a href="http://protected-brook-99260.herokuapp.com/">
+                  <img class="img-portfolio img-responsive" src="img/angularToDo.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">           
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="api">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">Animal GIF's</h3>
+                    <p>Created an API to fetch data and display different animals</p>
+                  </span>
+                </div> 
+                <a href="http://safe-eyrie-76489.herokuapp.com">
+                  <img class="img-portfolio img-responsive" src="img/animalGIF.png">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="javascript">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">Star Wars Game</h3>
+                    <p>Used vanilla JavaScript, custom CSS and sounds</p>
+                  </span>
+                </div> 
+                <a href="http://starwars.edna.tech/">
+                  <img class="img-portfolio img-responsive" src="img/SWPRGgame.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="ajax">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">CodeSchool Badges</h3>
+                    <p>Used AJAX calls and jQuery to display CodeSchool progress</p>
+                  </span>
+                </div> 
+                <a href="http://jquerybadges.edna.tech/">
+                  <img class="img-portfolio img-responsive" src="img/codeschoolajax.png">
+                </a>
+              </div>
+            </div>            
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="jquery">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">Train Time</h3>
+                    <p>jQuery and Firebase to get train times</p>
+                  </span>
+                </div> 
+                <a href="http://polar-waters-11739.herokuapp.com/">
+                  <img class="img-portfolio img-responsive" src="img/TrainTime.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="javascript">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">Hangman Game</h3>
+                    <p>JavaScript game that works on mobile</p>
+                  </span>
+                </div> 
+                <a href="http://morning-lake-99609.herokuapp.com/">
+                  <img class="img-portfolio img-responsive" src="img/hangmanGame.png">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="javascript">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">Trivia Game</h3>
+                    <p>Uses Timers, JavaScript and custom CSS</p>
+                  </span>
+                </div> 
+                <a href="http://shielded-hollows-62536.herokuapp.com/">
+                  <img class="img-portfolio img-responsive" src="img/FriendsTriviaGame.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="ajax">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">Hot Restaurant</h3>
+                    <p>Used Node, Express and custom API to build a wait list</p>
+                  </span>
+                </div> 
+                <a href="#">
+                  <img class="img-portfolio img-responsive" src="img/HotRestaurant.png">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="javascript">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">Meet Your Mate</h3>
+                    <p>Matches you to potential mates, use Modal</p>
+                  </span>
+                </div> 
+                <a href="http://fast-woodland-60834.herokuapp.com/">
+                  <img class="img-portfolio img-responsive" src="img/friendFinder.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolio-item" data-set="angular">
+                <div class="overlay">
+                  <span class="title">
+                    <h3 class="reference-title">Future Moments</h3>
+                    <p>Angular 1 application with API's and Node.js</p>
+                  </span>
+                </div> 
+                <a href="http://45.55.237.41/">
+                  <img class="img-portfolio img-responsive" src="img/FutureMoments.png">
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- </div> -->
+          <!-- /.row (nested) -->
+          <!--                     <a href="#" class="btn btn-dark">View More Items</a>
+ --></div>
+        <!-- /.col-lg-10 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- Call to Action -->
+  <section id="skillset" class="skillset bg-primary">
+    <aside class="bg-primary">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-10 col-lg-offset-1">
+            <h2>Edna's skillset</h2>
+            <hr class="small">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-bold fa-stack-1x text-primary"></i>
+                            </span>
+                  <h4>
+                                    <strong>Bootstrap</strong>
+                                </h4>
+                  <p>Makes beautiful sites, such as this one using the Bootstrap frame work.</p>
+                 
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-code fa-stack-1x text-primary"></i>
+                            </span>
+                  <h4>
+                                    <strong>JavaScript</strong>
+                                </h4>
+                  <p>Makes web-sites interactive and useful. Also uses jQuery and Node.js</p>
+                  
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                  <h4>
+                                    <strong>PHP</strong>
+                                </h4>
+                  <p>PHP is a powerful language for web-sites to communicate with servers.</p>
+                  
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                            </span>
+                  <h4>
+                                    <strong>Databases</strong>
+                                </h4>
+                  <p>Builds and maintains databases using variety of frameworks such as NoSQL, Firebase, MySQL and MongoDB.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <!-- /.row (nested) -->
+          </div>
+          <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </aside>
+  </section>
+  <!--   Detailed skills -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 in-depth container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Summary</h3>
+            <p>I'm a junior level developer, I enjoy challenges and finding solutions to problems. I realize that I have a lot to learn still, it gives me a sense of satisfaction to master a new skill and new (to me) technology. I have chosen a variety of technologies to learn and have been mostly focused on JavaScript, Node.js and writing API's. To the right are progress bars where I have given my estimate of how well I know a few technologies. This estimate is based on how often I feel like I have to Google something. <strong> The most important thing to know is that I will work hard, I will continue to learn, I will continue to practice my skill and work on becoming better. </strong> That's all I can do, is improve. I really do enjoy coding, I love to solve the challenges that come with creating code and finding a good way and then a better way to do something. I focus on two things when I'm coding, first making it work and then making it look good. If I can accomplish those two things, I feel like I am making a great product.
+            </p>
+            <p>I'm often learning new skills on CodeSchool, <a href="http://jquerybadges.edna.tech">check out my progress</a></p>
+          </div>
+          <div class="col-md-6">
+            <div class="know">
+              <p>HTML & CSS</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                  80%
+                </div>
+              </div>
+              <p>JavaScript</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                  95%
+                </div>
+              </div>
+              <p>PHP</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
+                  55%
+                </div>
+              </div>
+              <p>MongoDB</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                  80%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="contact"></section>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h4><strong>Edna Jonsson</strong></h4>
+          <p>Orlando, FL</p>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-phone fa-fw"></i> (904) 330-5821</li>
+            <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:edna@edna.tech">edna@edna.tech</a>
+            </li>
+          </ul>
+          <br>
+          <ul class="list-inline">
+            <li>
+              <a href="https:///www.linkedin.com/in/ednajonsson"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="http://stackoverflow.com/users/6115857/edna"><i class="fa fa-stack-overflow fa-fw fa-3x"></i></a>
+              <li>
+                <a href="https://www.facebook.com/edna.jonsson"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="http://www.twitter.com/ednas"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/Ednas"><i class="fa fa-github fa-fw fa-3x"></i></a>
+              </li>
+          </ul>
+          <hr class="small">
+          <p class="text-muted">Copyright &copy; edna.tech 2016</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/parallax.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="js/app.js"></script>
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
 
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-
-	<div class="container navbar-fixed-bottom">
-	<div class="navbar navbar-inverse footer">
-		<p class="navbar-text font">
-				&#169; 2017 Sally Fields
-		</p>
-	</div>
-</div>
-
-	
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+  </script>
 </body>
 
 </html>
