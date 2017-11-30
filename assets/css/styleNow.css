@@ -1,6 +1,7 @@
 p{
     padding:0px;
     margin:0px;
+    color:#706e7c;
 }
 
 body {
@@ -18,7 +19,7 @@ div.container{
 
 div.row.header{
     background:url(../images/hbg.png);
-    background-color:rgba(102, 51, 153, 0.151);    
+    background-color:#e2dde3;    
 }
 
 div.col-sm-4.top-left{
@@ -31,6 +32,7 @@ div.col-sm-4.top-left{
 h1.this-page{
     font-family: 'Six Caps', sans-serif;
     font-size:170px;
+    color:#706e7c;
 }
 
 div.col-sm-4.top-md{
@@ -51,12 +53,12 @@ a.am{
 }
 
 a.active{
-    color:black;
+    color:#706e7c;
     display:inline;
 }
 
 a:link:hover, a:visited:hover{
-    color:slategray;
+    color:#9c88a0;
     text-decoration:none;
 }
 div.col-sm-4.top-lr {
@@ -78,7 +80,7 @@ div.intro{
 p.my-name{
 
     font-size:41px;
-    color:black;
+    color:white;
 }
 
 div#icons{
@@ -122,7 +124,7 @@ div.col-sm-3.square1{
      font-size: 20px;
      text-align:center;
      padding-top:20px;
-     color:rgb(249, 235, 253);
+     color:#706e7c;
  }
 
  @media screen and (max-width:768px){
