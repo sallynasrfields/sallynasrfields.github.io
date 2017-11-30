@@ -116,8 +116,6 @@ div.col-sm-3.square1{
     height:200px;
 }
 
-
-
  p#more{
      font-size: 20px;
      text-align:center;
@@ -142,16 +140,16 @@ div.col-sm-3.square1{
         margin:0px;
 
     }
-
-    h1.this-page{
-        font-size:160px;
-    }
     div.col-sm-4.top-left{
-        height:250px;
+        height:200px;
         
     }
+    h1.this-page{
+        font-size:140px;
+    }
+
     div.col-sm-4.top-md{
-        height:220px;
+        height:210px;
     }
 
     p.tri{
@@ -162,11 +160,11 @@ div.col-sm-3.square1{
 
         padding:0;
         margin-top:0px;
-        height:280px;
+        height:220px;
     }
 
     p.my-name{
-        font-size:50px;
+        font-size:45px;
     }
 
     p{
