@@ -29,7 +29,7 @@ p.first{
 }
  @media screen and (max-width:414px){
   body{
-height:1600px
+        height:1550px
 
     }
     p.first{
