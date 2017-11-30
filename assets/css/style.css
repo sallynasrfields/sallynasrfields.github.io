@@ -8,8 +8,6 @@ body {
 }
 
 .container{
-    
-
     background:white;
 }
 
@@ -37,17 +35,26 @@ div.inline{
 }
 
 
-
-p.am{
-    font-size:20px;
+p.tri{
+    font-size:18px;
+    color:white;
 }
+
+p.tp{
+    font-size:20px;
+    display:inline;
+   
+}
+
 
 a.am{
     color:white;
+    /* display:inline; */
 }
 
 a.active{
     color:black;
+    display:inline;
 }
 
 a:link:hover, a:visited:hover{
@@ -154,10 +161,10 @@ div.square{
 
     }
     div.col-sm-4.top-lr{
-        
+
         padding:0;
         margin-top:0px;
-        height:120px;
+        height:160px;
     }
 
     p.my-name{
