@@ -7,12 +7,14 @@ margin-top:60px;
 div.col-sm-4.am{
 background:url(../images/pp.jpg) no-repeat center center;
   height:380px;
+  
 }
 
 div.col-sm-8#am{
     font-size:22px;
     padding-top:2px;
     height:auto;
+ 
 
 
 }
@@ -25,3 +27,11 @@ p.first{
         font-size:18px;
     }
 }
+ @media screen and (max-width:414px){
+    div.col-sm-8#am{
+        font-size:12px;
+        padding-left:12px;
+        padding-right:12px;
+    }
+
+ }
