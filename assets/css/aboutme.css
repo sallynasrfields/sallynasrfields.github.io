@@ -28,7 +28,7 @@ p.first{
     }
 }
  @media screen and (max-width:414px){
-    div.col-sm-8#am{
+    p.first{
         font-size:12px;
         padding-left:12px;
         padding-right:12px;
