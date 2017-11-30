@@ -107,9 +107,11 @@ div.row.seperator{
 }
 div.col.seperator{
 
-    height:35px;
-    background-color:black;
-    border-radius:5px 5px 20px 20px;
+    height:25px;
+    background-color:#9c88a0;
+    border-radius:5px 5px 15px 15px;
+    border-bottom-style:groove;
+    border-bottom-width:10px;
 }
 
 div.col-sm-3.square1{
