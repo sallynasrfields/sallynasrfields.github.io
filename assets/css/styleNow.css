@@ -102,16 +102,16 @@ div.row.first{
 }
 
 div.row.seperator{
-    margin-top:15px;
-    width: 105%;
-   margin-left:-2.5%;
+    margin-top:0px;
+    width: 102.76%;
+   margin-left:-1.4%;
    padding:0 -100%;
 }
 div.col.seperator{
 
     height:25px;
     background-color:#9c88a0;
-    border-radius:5px 5px 15px 15px;
+    border-radius:2px 2px 7px 7px;
     border-bottom-style:groove;
     border-bottom-width:10px;
 }
@@ -168,7 +168,6 @@ div.col-sm-3.square1{
     }
 
     p.my-name{
-        font-family: 'Six Caps', sans-serif;
         font-size:45px;
     }
 
