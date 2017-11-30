@@ -1,4 +1,8 @@
 
+p{
+    padding:0px;
+    margin:0px;
+}
 
 body {
     background:url(../images/hbg4.jpg);
@@ -7,22 +11,27 @@ body {
     /* background-color:rgba(128, 0, 128, 0.185); */
 }
 
-.container{
+div.container{
     background:white;
+    height:100%
 }
 
-p{
-    padding:0px;
-    margin:0px;
+
+div.row.header{
+    background:url(../images/hbg.png);
+    background-color:rgba(102, 51, 153, 0.151);    
+}
+
+div.col-sm-4.top-left{
+    height:270px;
+    margin-top:20px;
+    text-align:center;
+    vertical-align: middle;    
 }
 
 h1.this-page{
     font-family: 'Six Caps', sans-serif;
     font-size:170px;
-}
-div.row.header{
-    background:url(../images/hbg.png);
-    background-color:rgba(102, 51, 153, 0.151);    
 }
 
 div.col-sm-4.top-md{
@@ -33,20 +42,10 @@ div.inline{
     text-align: left;
     /* padding:10% 0;     */
 }
-
-
 p.tri{
     font-size:18px;
     color:white;
 }
-
-p.tp{
-    font-size:20px;
-    display:inline;
-   
-}
-
-
 a.am{
     color:white;
     /* display:inline; */
@@ -61,6 +60,26 @@ a:link:hover, a:visited:hover{
     color:slategray;
     text-decoration:none;
 }
+div.col-sm-4.top-lr {
+    height:270px;
+    margin-top:20px;
+    text-align:center;
+    vertical-align: middle;    
+}
+
+div.intro{
+    margin-top:auto;
+    margin-bottom:auto;
+    padding:10% 0;
+    text-align: center;
+    font-size:17px;  
+    color:rgba(114, 106, 116, 0.541);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+p.my-name{
+    font-size:41px;
+    color:black;
+}
 
 div#icons{
     width:max-content;
@@ -74,46 +93,10 @@ img.social{
     margin-right:2.4px;
    height:30px;
    width:30px;
-
 }
-div.intro{
-    margin-top:auto;
-    margin-bottom:auto;   
-
-
-   padding:10% 0;
-    text-align: center;
-    font-size:17px;  
-    color:rgba(114, 106, 116, 0.541);
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
-    
-}
-p.my-name{
-    font-size:41px;
-    color:black;
-
-}
-
-div.container{
-    height:100%;
-}
-
 
 div.row.first{
     margin-top:60px;
-}
-
-div.col-sm-3.square1{
-    height:200px;
-}
-
-
-div.col-sm-4.top-lr, div.col-sm-4.top-left{
-    height:270px;
-    margin-top:20px;
-    text-align:center;
-    vertical-align: middle;
-    
 }
 
 div.row.seperator{
@@ -129,12 +112,11 @@ div.col.seperator{
     border-radius:5px 5px 20px 20px;
 }
 
-div.square{
+div.col-sm-3.square1{
+    height:200px;
+}
 
-    background-color:black;
-    height:100%;
-    border-radius:50px;
- }
+
 
  p#more{
      font-size: 20px;
