@@ -6,8 +6,7 @@ margin-top:60px;
 
 div.col-sm-4.am{
 background:url(../images/pp.jpg) no-repeat center center;
-  height:380px;
-  
+  height:380px;  
 }
 
 div.col-sm-8#am{
@@ -21,6 +20,26 @@ div.col-sm-8#am{
 
 p.first{
     margin-bottom: 10px;
+}
+
+@media screen and (max-width:992px){    
+    div.row#am{
+        height:auto;
+        margin-top:10px;
+        margin-left:5px;
+    }
+
+    div.col-sm-4.am{
+        background:url(../images/pp.jpg) no-repeat center center;
+        height:260px;  
+        width:240px;
+    }
+
+    p.first{
+        margin:0px;
+        margin-top:5px;
+        font-size:14.5px;
+    }
 }
 @media screen and (max-width:768px){
     div.col-sm-8#am{

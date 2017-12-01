@@ -135,6 +135,10 @@ div.col-sm-3.square1{
      color:#706e7c;
  }
 @media screen and (max-width:992px){
+    body{
+        height:420px;
+    }
+
     div.col-sm-4.top-left,div.col-sm-4.top-md, div.col-sm-4.top-lr{
         height:106px;
     }
