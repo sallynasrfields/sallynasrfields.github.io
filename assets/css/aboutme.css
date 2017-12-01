@@ -59,7 +59,8 @@ p.first{
     div.col-sm-4.am{
         background:none;
         padding:0px;
-        width:380px;
+        padding-right:6px;
+        width:390px;
     }
 
     div.image{
