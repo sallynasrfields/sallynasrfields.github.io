@@ -22,29 +22,40 @@ div.row.header{
     background-color:#e2dde3;    
 }
 
+div.col-sm-4.top-left, div.col-sm-4.top-md, div.col-sm-4.top-lr{
+    height:150px;
+}
 div.col-sm-4.top-left{
-    height:270px;
-    margin-top:20px;
-    text-align:center;
-    vertical-align: middle;    
+    text-align:right;
+    
 }
 
 h1.this-page{
     font-family: 'Six Caps', sans-serif;
-    font-size:170px;
+    font-size:135px;
     color:#706e7c;
+    margin:0;
+
+}
+
+.inline-mobile{
+    visibility: hidden;
 }
 
 div.col-sm-4.top-md{
-    padding:5% 0;
+    padding-left:0px;
+    padding-bottom:20px;
 }
 div.inline{
     width:max-content;
     text-align: left;
-    /* padding:10% 0;     */
+    padding:10% 0;  
+    position:relative;
+    bottom:10px;
+  
 }
 p.tri{
-    font-size:18px;
+    font-size:19px;
     color:white;
 }
 a.am{
@@ -62,8 +73,6 @@ a:link:hover, a:visited:hover{
     text-decoration:none;
 }
 div.col-sm-4.top-lr {
-    height:270px;
-    margin-top:20px;
     text-align:center;
     vertical-align: middle;    
 }
@@ -71,7 +80,6 @@ div.col-sm-4.top-lr {
 div.intro{
     margin-top:auto;
     margin-bottom:auto;
-    padding:10% 0;
     text-align: center;
     font-size:17px;  
     color:rgba(114, 106, 116, 0.541);
@@ -146,48 +154,69 @@ div.col-sm-3.square1{
 
     }
     div.col-sm-4.top-left{
-        height:200px;
+        height:10px;
+        text-align:center;
+        
         
     }
     h1.this-page{
-        font-size:140px;
+        font-size:5px;
+       visibility:hidden;
     }
+
+    .inline-mobile{
+        visibility:visible;
+        
+    }
+    p.tri-mob{
+        display:inline;
+    }
+
+  
 
     div.col-sm-4.top-md{
-        height:210px;
+        height:20px;
+        padding:0px;
+        padding-left:10px;        
     }
 
+    .inline-dt{
+        visibility:hidden;
+    }
+  
+
+
     p.tri{
-        font-size:23px;
+        font-size:15px;
     }
 
     div.col-sm-4.top-lr{
 
         padding:0;
         margin-top:0px;
-        height:220px;
+        height:110px;
     }
 
     p.my-name{
-        font-size:45px;
+        font-size:21px;
     }
 
     p{
-        font-size:22px;
-    }
-    h1.this-page{
-      text-align: center;
-      padding-right:50px;
+        font-size:15px;
     }
 
-    div.col-sm-4.top-md{
-        padding:0;
-       padding-left:125px;
-    }
+
     div.intro{
-        padding-top:15px;
-        padding-right:50px;
+        padding-top:0px;
+        padding-right:0px;
         text-align: center;
+    }
+
+    div#social{
+        height:10px;
+        width:10px;
+        padding:1px;
+
     }
     div.row.seperator{
         width:100%;
