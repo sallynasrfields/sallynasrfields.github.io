@@ -134,7 +134,41 @@ div.col-sm-3.square1{
      padding-top:20px;
      color:#706e7c;
  }
+@media screen and (max-width:992px){
+    div.col-sm-4.top-left,div.col-sm-4.top-md, div.col-sm-4.top-lr{
+        height:106px;
+    }
 
+    h1.this-page{
+        font-size:95px;
+    }
+
+    div.inline-dt{
+        position:relative;
+        top:8px;
+    }
+
+    p.tri {
+        font-size:16px;
+    }
+
+    p.my-name{
+        font-size:26px;
+    }
+
+    p{
+        font-size:13px;
+    }
+
+    img.social{
+        height:22px;
+        width:22px;
+        margin-left:.3px;
+        margin-right:.3px;
+    }
+
+
+}
  @media screen and (max-width:768px){
     h1.this-page{
         font-family: 'Six Caps', sans-serif;
