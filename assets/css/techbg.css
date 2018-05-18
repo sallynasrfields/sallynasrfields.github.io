@@ -1,0 +1,26 @@
+.col-xs-3.field{
+    font-size:15px;
+    /* transform:rotate(90deg); */
+    /* position:relative; */
+    top:10px;
+    padding:0px;
+    padding-top:5px;
+    
+}
+
+.col-xs-9{
+
+    padding:0px;
+    padding-top:5px;
+    text-align:center;
+    
+}
+
+ul{
+    list-style-type: square;
+    padding:0px;
+}
+
+li{
+    display:inline;
+}
