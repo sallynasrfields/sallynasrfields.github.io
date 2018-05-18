@@ -269,6 +269,6 @@ div.col-sm-3.square1{
 }
 @media screen and (max-width:360px){
     div.col-sm-4.top-left{
-        height:200px;
+        height:20px;
     }
 }
